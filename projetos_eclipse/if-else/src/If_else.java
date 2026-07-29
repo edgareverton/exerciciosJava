@@ -11,14 +11,17 @@ public class If_else {
 		if (hora < 12) {
 			
 			System.out.println("Bom dia! a hora é: " + hora);
+		
 		}
-		if (hora > 12 && hora < 18) {
-					
-					System.out.println("Boa tarde! a hora é: " + hora);
-				}
-		if(hora >= 18) {
+		else if(hora >= 12 && hora < 18) {
+				
+			System.out.println("Boa tarde! A hora é: " + hora);
+			}
+		else {
 			System.out.println("Boa noite! A hora é: " + hora);
-		}
+			}
+		
+		
 				sc.close();
 	}
 }
