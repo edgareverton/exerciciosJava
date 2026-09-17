@@ -1,11 +1,11 @@
 class Animal {
-	public void comer(){
-		System.out.println("O animal come");
+	    public void fazerSom(){
+		System.out.println("O animal faz um som");
 	  }
 	}
 
 	class Cachorro extends Animal {
-		public void latir(){
+		public void fazerSom(){
 		System.out.println("O cachorro late");
 	  }
 	}
@@ -14,8 +14,6 @@ class Animal {
 		public static void main(String[] args){
 			Cachorro dog = new Cachorro();
 
-			dog.latir();
-			dog.comer();
-		}
+			dog.fazerSom();
 	}
-
+}
